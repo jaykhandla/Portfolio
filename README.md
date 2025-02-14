@@ -1,4 +1,4 @@
-#Personal Portfolio Website
+# Personal Portfolio Website
 
 <div align="center">
   <img alt="Demo" src="./Images/Laptop view.png" />
@@ -6,28 +6,44 @@
 
 <br/>
 
+## Introduction
+
+Welcome to my personal portfolio website! This site showcases some of my GitHub projects, provides an overview of my resume, and highlights my technical skills. It’s built with modern web technologies to offer a seamless and responsive experience across all devices.
+
 ## Built With
-My personal portfolio which features some of my github projects as well as my resume and technical skills.
 
-This project was built using these technologies.
+This project was developed using the following technologies:
 
-- React.js
-- Node.js
-- Express.js
-- CSS3
-- VsCode
+- **React.js**: A JavaScript library for building user interfaces.
+- **Node.js**: JavaScript runtime for building server-side applications.
+- **Express.js**: Web application framework for Node.js.
+- **CSS3**: Used for styling the application.
+- **React-Bootstrap**: For responsive and customizable components.
+- **VS Code**: My code editor of choice for development.
 
 ## Features
 
-**📖 Multi-Page Layout**
+- **📖 Multi-Page Layout**: The portfolio has multiple sections, including a Projects section, Resume, and Skills.
+- **🎨 Styled with React-Bootstrap and custom CSS**: A modern and customizable design with easy-to-edit color themes.
+- **📱 Fully Responsive**: The website is designed to work seamlessly across different devices and screen sizes.
+- **📝 Resume Integration**: Easily accessible resume section with downloadable options.
+- **🔗 GitHub Projects**: Showcases some of my public repositories to highlight my work and contributions.
+- **⚡ Fast Performance**: Optimized for performance, ensuring a smooth user experience.
 
-**🎨 Styled with React-Bootstrap and Css with easy to customize colors**
+## Demo
 
-**📱 Fully Responsive**
+You can view a demo of the website by visiting [My Portfolio](https://github.com/jaykhandla/Portfolio).
 
 ## Getting Started
 
-Clone down this repository. You will need `node.js` and `git` installed globally on your machine.
+To get started with the project locally, follow these instructions to clone the repository and set up the environment.
+
+### Prerequisites
+
+Make sure you have `node.js` and `git` installed on your machine. If not, you can download them from the following links:
+
+- [Node.js](https://nodejs.org/)
+- [Git](https://git-scm.com/)
 
 ## 🛠 Installation and Setup Instructions
 
@@ -41,9 +57,8 @@ The page will reload if you make edits.
 
 ## Usage Instructions
 
-Open the project folder and Navigate to `/src/components/`. <br/>
-You will find all the components used and you can edit your information accordingly.
+To personalize the website, navigate to the /src/components/ directory, where you'll find various components used in the portfolio. Update your information (projects, resume details, technical skills) directly in the respective components.
 
 ### Show your support
 
-Give a ⭐ if you like this website!
+If you find this project helpful or inspiring, please consider giving it a star ⭐ on GitHub.
