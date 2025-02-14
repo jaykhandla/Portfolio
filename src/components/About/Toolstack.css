@@ -1,0 +1,38 @@
+.tech-icons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.icon-container {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px;
+    width: 100px;
+    height: 100px;
+    text-align: center;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    cursor: pointer;
+}
+
+.icon-text {
+    position: absolute;
+    bottom: -15px;
+    opacity: 0;
+    transition: opacity 0.3s ease;
+    font-size: 14px;
+    width: 100%;
+    text-align: center;
+}
+
+.icon-container:hover .icon-text {
+    opacity: 1;
+}
+
+.icon-container:hover svg {
+    transform: scale(1.1);
+    transition: transform 0.3s ease;
+}
