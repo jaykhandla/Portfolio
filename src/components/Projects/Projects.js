@@ -2,10 +2,11 @@ import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import ProjectCard from "./ProjectCards";
 import Particle from "../Particle";
-import bubble from "../../Assets/Projects/Bubble effects.png"
-import spark from "../../Assets/Projects/Spark Effects.png"
-import prodesignstudio from "../../Assets/Projects/pro design studio.png"
-import Theinteriordesign from "../../Assets/Projects/The interior design.png"
+import bubble from "../../Assets/Projects/Bubble effects.png";
+import spark from "../../Assets/Projects/Spark Effects.png";
+import prodesignstudio from "../../Assets/Projects/pro design studio.png";
+import Theinteriordesign from "../../Assets/Projects/The interior design.png";
+import weatherApp from "../../Assets/Projects/Weather app.png";
 
 function Projects() {
   return (
@@ -19,6 +20,17 @@ function Projects() {
           Here are a few projects I've worked on recently.
         </p>
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
+
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={weatherApp}
+              isBlog={false}
+              title="Weather App"
+              description="A simple and interactive weather application that allows users to get current weather information for any location. The app fetches real-time data from a weather API and displays key details such as temperature, humidity, wind speed, and weather conditions."
+              ghLink="https://github.com/jaykhandla/Weather-App"
+            />
+          </Col>
+
           <Col md={4} className="project-card">
             <ProjectCard
               imgPath={bubble}
