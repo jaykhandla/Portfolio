@@ -9,10 +9,10 @@ function AboutCard() {
         <blockquote className="blockquote mb-0">
           <p style={{ textAlign: "justify" }}>
             Hi Everyone, I am <span className="purple">JAY KHANDLA </span>
-            from <span className="purple"> Wadhwan City, Gujarat, India.</span>
+            from <span className="purple"> Ahmedabad, India.</span>
             <br />
             Passionate Web Developer with skilledin the MERN stack and hands-on experience
-            at WayToCode Technologies.        
+            at "Way To Code Technologies LLP".
             <br />
             <br />
             Apart from coding, some other activities that I love to do!
