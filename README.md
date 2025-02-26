@@ -32,7 +32,7 @@ This project was developed using the following technologies:
 
 ## Demo
 
-You can view a demo of the website by visiting [My Portfolio](https://github.com/jaykhandla/Portfolio).
+You can view a demo of the website by visiting [My Portfolio](https://jay-flame.vercel.app/).
 
 ## Getting Started
 
@@ -43,7 +43,7 @@ To get started with the project locally, follow these instructions to clone the 
 Make sure you have `node.js` and `git` installed on your machine. If not, you can download them from the following links:
 
 - [Node.js](https://nodejs.org/)
-- [Git](https://jay-flame.vercel.app/)
+- [Git](https://git-scm.com/)
 
 ## 🛠 Installation and Setup Instructions
 
