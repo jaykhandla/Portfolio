@@ -28,6 +28,7 @@ function Projects() {
               title="Weather App"
               description="A simple and interactive weather application that allows users to get current weather information for any location. The app fetches real-time data from a weather API and displays key details such as temperature, humidity, wind speed, and weather conditions."
               ghLink="https://github.com/jaykhandla/Weather-App"
+              demoLink="https://jay-weather-app.vercel.app/"
             />
           </Col>
 
