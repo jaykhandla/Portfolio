@@ -101,7 +101,7 @@ function NavBar() {
 
             <Nav.Item className="fork-btn">
               <Button
-                href="https://jay-flame.vercel.app/"
+                href="https://github.com/jaykhandla/Portfolio"
                 target="_blank"
                 className="fork-btn-inner"
               >

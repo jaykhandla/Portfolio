@@ -43,7 +43,7 @@ To get started with the project locally, follow these instructions to clone the 
 Make sure you have `node.js` and `git` installed on your machine. If not, you can download them from the following links:
 
 - [Node.js](https://nodejs.org/)
-- [Git](https://git-scm.com/)
+- [Git](https://jay-flame.vercel.app/)
 
 ## 🛠 Installation and Setup Instructions
 
