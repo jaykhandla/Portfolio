@@ -2,6 +2,11 @@
 
 <div align="center">
   <img alt="Demo" src="./Images/Laptop view.png" />
+</div>
+
+<br/> <br/>
+
+<div align="center">
   <img alt="Demo" src="./Images/Mobile view.png" />
 </div>
 
