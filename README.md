@@ -2,6 +2,7 @@
 
 <div align="center">
   <img alt="Demo" src="./Images/Laptop view.png" />
+  <img alt="Demo" src="./Images/Mobile view.png" />
 </div>
 
 <br/>
