@@ -38,6 +38,7 @@ function Projects() {
               title="Mouse Bubble Effect"
               description="The Bubble Effect on Mouse Movement is an interactive, web-based animation that creates visually captivating bubble-like effects whenever the user moves their mouse across the screen. As the mouse moves, small, colorful bubbles appear at the cursor's location and float away, adding a dynamic and playful touch to the webpage. This project demonstrates the power of CSS animations and JavaScript to create lightweight, real-time visual effects that engage users in an interactive experience."
               ghLink="https://github.com/jaykhandla/Mouse-Bubble-Effect"
+              demoLink="https://jaykhandla.github.io/Mouse-Bubble-Effect/"
             />
           </Col>
 
@@ -48,6 +49,7 @@ function Projects() {
               title="Mouse Spark Effect"
               description="This project demonstrates an interactive spark effect using JavaScript and CSS. Upon clicking anywhere on the page, spark animations are triggered at the mouse position. The spark effect is generated dynamically, with multiple spark elements radiating outward in different directions, creating a visually appealing and interactive experience."
               ghLink="https://github.com/jaykhandla/Mouse-Spark-Effect"
+              demoLink="https://jaykhandla.github.io/Mouse-Spark-Effect/"
             />
           </Col>
 
