@@ -4,6 +4,7 @@ import {
   AiFillGithub,
 } from "react-icons/ai";
 import { FaLinkedinIn } from "react-icons/fa";
+import logo from "../Assets/Logo.png";
 
 function Footer() {
   let date = new Date();
@@ -12,7 +13,9 @@ function Footer() {
     <Container fluid className="footer">
       <Row>
         <Col md="4" className="footer-copywright">
-          <h3>Designed and Developed by Jay Khandla</h3>
+          {/* <h3>Designed and Developed by Jay Khandla</h3> */}
+          <img src={logo} className="img-fluid logo" alt="brand" />
+
         </Col>
         <Col md="4" className="footer-copywright">
           <h3>Copyright © {year}</h3>
