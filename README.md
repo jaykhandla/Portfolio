@@ -16,6 +16,10 @@
 
 Welcome to my personal portfolio website! This site showcases some of my GitHub projects, provides an overview of my resume, and highlights my technical skills. It’s built with modern web technologies to offer a seamless and responsive experience across all devices.
 
+## Live Demo
+
+You can view a demo of the website by visiting [My Portfolio](https://jay-flame.vercel.app/).
+
 ## Built With
 
 This project was developed using the following technologies:
@@ -35,10 +39,6 @@ This project was developed using the following technologies:
 - **📝 Resume Integration**: Easily accessible resume section with downloadable options.
 - **🔗 GitHub Projects**: Showcases some of my public repositories to highlight my work and contributions.
 - **⚡ Fast Performance**: Optimized for performance, ensuring a smooth user experience.
-
-## Demo
-
-You can view a demo of the website by visiting [My Portfolio](https://jay-flame.vercel.app/).
 
 ## Getting Started
 
