@@ -15,12 +15,21 @@ function ResumeNew() {
   useEffect(() => {
     const handleResize = () => {
       setWidth(window.innerWidth);
-      setScale(window.innerWidth > 786 ? 1.7 : 0.6);
+      if (window.innerWidth > 786) {
+        setScale(1.7);
+      } else {
+        setScale(0.6);
+      }
     };
 
     window.addEventListener("resize", handleResize);
+
     return () => window.removeEventListener("resize", handleResize);
   }, []);
+
+  useEffect(() => {
+    setScale(window.innerWidth > 786 ? 1.7 : 0.6);
+  }, [width]);
 
   return (
     <div>
