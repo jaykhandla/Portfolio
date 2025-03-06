@@ -1,18 +1,25 @@
 import React, { useState, useEffect } from "react";
-import { Container, Row } from "react-bootstrap";
+import { Container, Row, Col } from "react-bootstrap";
 import Button from "react-bootstrap/Button";
 import Particle from "../Particle";
-import pdf from "../../Assets/Jay Khandla Resume.pdf";
+import pdf from "../../Assets/JAY.pdf";
 import { AiOutlineDownload } from "react-icons/ai";
 import { Document, Page, pdfjs } from "react-pdf";
 import "react-pdf/dist/esm/Page/AnnotationLayer.css";
 pdfjs.GlobalWorkerOptions.workerSrc = `//cdnjs.cloudflare.com/ajax/libs/pdf.js/${pdfjs.version}/pdf.worker.min.js`;
 
 function ResumeNew() {
-  const [width, setWidth] = useState(1200);
+  const [width, setWidth] = useState(window.innerWidth);
+  const [scale, setScale] = useState(1.7);
 
   useEffect(() => {
-    setWidth(window.innerWidth);
+    const handleResize = () => {
+      setWidth(window.innerWidth);
+      setScale(window.innerWidth > 786 ? 1.7 : 0.6);
+    };
+
+    window.addEventListener("resize", handleResize);
+    return () => window.removeEventListener("resize", handleResize);
   }, []);
 
   return (
@@ -31,10 +38,14 @@ function ResumeNew() {
           </Button>
         </Row>
 
-        <Row className="resume">
-          <Document file={pdf} className="d-flex justify-content-center">
-            <Page pageNumber={1} scale={width > 786 ? 1.7 : 0.6} />
-          </Document>
+        <Row className="resume" style={{ justifyContent: "center", marginTop: "30px" }}>
+          <Col xs={12} md={10} lg={8}>
+            <Document file={pdf} className="d-flex flex-column justify-content-center align-items-center">
+              <Page pageNumber={1} scale={scale} />
+              <div className="mb-3" />
+              <Page pageNumber={2} scale={scale} />
+            </Document>
+          </Col>
         </Row>
 
         <Row style={{ justifyContent: "center", position: "relative" }}>
