@@ -487,6 +487,7 @@ button:focus {
 .project-card img {
   height: 250px;
   width: 100%;
+  padding-top: 3px;
 }
 
 .project-card-view {

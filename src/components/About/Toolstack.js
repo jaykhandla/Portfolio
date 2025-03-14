@@ -1,8 +1,8 @@
 import React from "react";
 import { Col, Row } from "react-bootstrap";
+import { DiNpm } from "react-icons/di";   // NPM icon
 import { SiPostman } from "react-icons/si";  // Postman icon
-import { FaDatabase } from "react-icons/fa";  // MongoDB icon (General Database)
-import { VscVscode } from "react-icons/vsc";
+import { VscVscode } from "react-icons/vsc";    // VScode icon
 
 function Toolstack() {
   return (
@@ -21,8 +21,8 @@ function Toolstack() {
       </Col>
       <Col xs={4} md={2} className="tech-icons">
         <div className="icon-container">
-          <FaDatabase />
-          <div className="icon-text">MongoDB</div>
+          <DiNpm />
+          <div className="icon-text">Node Package Manager</div>
         </div>
       </Col>
     </Row>
